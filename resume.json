@@ -6,7 +6,7 @@
     "image": "assets/photo.jpg",
     "email": "m.gashii@gmail.com",
     "phone": "+38349860006",
-    "url": "https://malesoregashirex.github.io",
+    "url": "https://mgashirex.github.io",
     "summary": "Senior IT Consultant & .NET Web Developer with 14+ years of experience in digital transformation, cloud-native systems, enterprise IT infrastructure, full-stack .NET development, Azure cloud services, and education platforms. Proven track record in deploying and managing large-scale web applications and educational systems.",
     "location": {
       "address": "Ferizaj",
@@ -18,8 +18,8 @@
     "profiles": [
       {
         "network": "GitHub",
-        "username": "malesoregashirex",
-        "url": "https://github.com/malesoregashirex"
+        "username": "mgashirex",
+        "url": "https://github.com/mgashirex"
       }
     ]
   },

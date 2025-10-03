@@ -1,6 +1,6 @@
 # Malësore Gashi Rexhepi - CV
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://malesoregashirex.github.io)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://mgashirex.github.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 A modern, responsive CV website showcasing my professional experience as a Senior IT Consultant & .NET Web Developer with 14+ years of experience in digital transformation, cloud-native systems, and enterprise IT infrastructure.
@@ -13,8 +13,8 @@ This is a static website that can be viewed directly in your browser or deployed
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/malesoregashirex/malesoregashirex.github.io.git
-   cd malesoregashirex.github.io
+   git clone https://github.com/mgashirex/mgashirex.github.io.git
+   cd mgashirex.github.io
    ```
 
 2. Open `index.html` in your web browser or serve it locally:
@@ -84,7 +84,7 @@ To customize this CV for your own use:
 - **Email**: m.gashii@gmail.com
 - **Phone**: +38349860006
 - **Location**: Ferizaj, Kosovo
-- **Website**: [malesoregashirex.github.io](https://malesoregashirex.github.io)
+- **Website**: [mgashirex.github.io](https://mgashirex.github.io)
 
 ## 📜 License
 
