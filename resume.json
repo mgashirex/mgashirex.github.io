@@ -32,7 +32,7 @@
       "endDate": "",
       "summary": "Leading digital transformation initiatives for remote education using Azure & .NET technologies",
       "highlights": [
-        "Developed BigBlueButton real-time translation system supporting 3 languages",
+        "Built a middleware for BigBlueButton that supports simultaneous real-time translation across multiple languages using APIs.",
         "Managed Azure VMs, networking infrastructure, and automated backup systems",
         "Deployed and maintained secure conferencing solutions for educational institutions"
       ]
