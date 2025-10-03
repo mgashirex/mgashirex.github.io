@@ -1,0 +1,323 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Malësore Gashi Rexhepi",
+    "label": "Senior IT Consultant & .NET Web Developer",
+    "image": "assets/photo.jpg",
+    "email": "m.gashii@gmail.com",
+    "phone": "+38349860006",
+    "url": "https://malesoregashirex.github.io",
+    "summary": "Senior IT Consultant & .NET Web Developer with 14+ years of experience in digital transformation, cloud-native systems, enterprise IT infrastructure, full-stack .NET development, Azure cloud services, and education platforms. Proven track record in deploying and managing large-scale web applications and educational systems.",
+    "location": {
+      "address": "Ferizaj",
+      "postalCode": "",
+      "city": "Ferizaj",
+      "countryCode": "XK",
+      "region": "Kosovo"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "malesoregashirex",
+        "url": "https://github.com/malesoregashirex"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Econfun",
+      "position": "IT Expert",
+      "url": "https://www.econfun.org",
+      "startDate": "2024-07-01",
+      "endDate": "",
+      "summary": "Leading digital transformation initiatives for remote education using Azure & .NET technologies",
+      "highlights": [
+        "Developed BigBlueButton real-time translation system supporting 3 languages",
+        "Managed Azure VMs, networking infrastructure, and automated backup systems",
+        "Deployed and maintained secure conferencing solutions for educational institutions"
+      ]
+    },
+    {
+      "name": "Digital School for Learning IT",
+      "position": "Co-Founder",
+      "url": "",
+      "startDate": "2024-06-01",
+      "endDate": "",
+      "summary": "Built comprehensive Python-based gamified curricula for IT education",
+      "highlights": [
+        "Developed branding strategy and established web presence",
+        "Designed and implemented franchise operations model",
+        "Created engaging learning experiences for students of all ages"
+      ]
+    },
+    {
+      "name": "AAB College",
+      "position": "Lecturer",
+      "url": "",
+      "startDate": "2023-10-01",
+      "endDate": "",
+      "summary": "Teaching software development courses and mentoring capstone projects",
+      "highlights": [
+        "Courses: Web Architecture, Object-Oriented Programming, Programming Web Services",
+        "Mentored capstone projects and guided students in software development best practices",
+        "Developed curriculum materials and assessment frameworks"
+      ]
+    },
+    {
+      "name": "Riinvest College",
+      "position": "Head of IT & Lecturer",
+      "url": "https://www.riinvest.net",
+      "startDate": "2012-10-01",
+      "endDate": "2024-09-30",
+      "summary": "Led IT infrastructure management for data centers, virtual machines, and cloud services",
+      "highlights": [
+        "Managed platforms serving 2000+ users including Moodle LMS, GCP, and student portals",
+        "Developed .NET administrative tools and comprehensive dashboards",
+        "Taught software development courses and managed final-year student projects",
+        "Implemented security best practices and disaster recovery procedures"
+      ]
+    },
+    {
+      "name": "Incodeks",
+      "position": "IT Consultant",
+      "url": "",
+      "startDate": "2021-10-01",
+      "endDate": "2023-09-30",
+      "summary": "Provided comprehensive data management, analytics, and governance solutions",
+      "highlights": [
+        "Implemented data quality and security frameworks organization-wide",
+        "Conducted system assessments and recommended optimization strategies",
+        "Developed custom reporting and monitoring solutions"
+      ]
+    },
+    {
+      "name": "Riinvest Institute (NGO)",
+      "position": "IT Consultant",
+      "url": "https://riinvestinstitute.org",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Assessed existing systems against project objectives and provided technical guidance",
+      "highlights": [
+        "Conducted infrastructure analysis across 5 major projects",
+        "Provided technical guidance and implementation support",
+        "Developed project documentation and best practice guidelines"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Riinvest College",
+      "url": "https://www.riinvest.net",
+      "area": "Managing Information Systems",
+      "studyType": "Master of Science",
+      "startDate": "",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Riinvest College",
+      "url": "https://www.riinvest.net",
+      "area": "Software Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Microsoft Certified Professional (MCP)",
+      "date": "",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/certifications/"
+    },
+    {
+      "name": "Microsoft Specialist",
+      "date": "",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/certifications/"
+    },
+    {
+      "name": "ECDL Authorized Trainer",
+      "date": "",
+      "issuer": "ECDL Foundation",
+      "url": "https://www.ecdl.org/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Expert",
+      "keywords": [
+        "C#",
+        "ASP.NET Core",
+        "HTML/CSS",
+        "JavaScript",
+        "SQL",
+        "Python",
+        "Java"
+      ]
+    },
+    {
+      "name": "Frameworks & Tools",
+      "level": "Expert",
+      "keywords": [
+        ".NET Framework",
+        ".NET Core",
+        "Entity Framework",
+        "Bootstrap",
+        "Visual Studio",
+        "REST APIs",
+        "OAuth2"
+      ]
+    },
+    {
+      "name": "Cloud Technologies",
+      "level": "Advanced",
+      "keywords": [
+        "Microsoft Azure",
+        "Azure VMs",
+        "VNet",
+        "NSG",
+        "Azure SQL",
+        "Firewall",
+        "Google Cloud Platform",
+        "VM Security",
+        "Threat Simulations",
+        "Penetration Testing"
+      ]
+    },
+    {
+      "name": "Platforms & Systems",
+      "level": "Advanced",
+      "keywords": [
+        "Moodle LMS",
+        "WordPress",
+        "BigBlueButton",
+        "Responsive UI Design",
+        "Web/Mobile Optimization"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Albanian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "A2 Level (improving)"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Digital Transformation",
+      "keywords": [
+        "Cloud Migration",
+        "System Modernization",
+        "Process Automation"
+      ]
+    },
+    {
+      "name": "Education Technology",
+      "keywords": [
+        "Learning Management Systems",
+        "Online Education",
+        "Gamified Learning"
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "keywords": [
+        "Penetration Testing",
+        "Threat Analysis",
+        "Security Best Practices"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Riinvest College Platforms",
+      "description": "Deployed and managed www.riinvest.net, my.riinvest.net (ASP.NET + SQL) serving 2000+ users",
+      "highlights": [
+        "ASP.NET Core web applications",
+        "SQL Server database management",
+        "User authentication and authorization",
+        "Responsive design implementation"
+      ],
+      "keywords": [
+        "ASP.NET",
+        "SQL Server",
+        "C#",
+        "Bootstrap"
+      ],
+      "startDate": "2012-10-01",
+      "endDate": "2024-09-30",
+      "url": "https://www.riinvest.net",
+      "roles": [
+        "Lead Developer",
+        "System Administrator"
+      ],
+      "entity": "Riinvest College",
+      "type": "Web Application"
+    },
+    {
+      "name": "Econfun Education Platform",
+      "description": "Custom Moodle LMS deployment at moodle.econfun.org with BigBlueButton integration",
+      "highlights": [
+        "Custom Moodle theme development",
+        "BigBlueButton real-time translation (3 languages)",
+        "Azure cloud infrastructure",
+        "Secure conferencing solutions"
+      ],
+      "keywords": [
+        "Moodle",
+        "BigBlueButton",
+        "Azure",
+        "PHP",
+        "JavaScript"
+      ],
+      "startDate": "2024-07-01",
+      "endDate": "",
+      "url": "https://moodle.econfun.org",
+      "roles": [
+        "Lead Developer",
+        "System Architect"
+      ],
+      "entity": "Econfun",
+      "type": "Learning Management System"
+    },
+    {
+      "name": "Digital School for Learning IT",
+      "description": "Python-based gamified curricula and franchise operations system",
+      "highlights": [
+        "Gamified learning platform development",
+        "Python curriculum design",
+        "Franchise management system",
+        "Brand development and web presence"
+      ],
+      "keywords": [
+        "Python",
+        "Gamification",
+        "Education",
+        "Web Development"
+      ],
+      "startDate": "2024-06-01",
+      "endDate": "",
+      "url": "https://www.gashicomputers.com",
+      "roles": [
+        "Co-Founder",
+        "Lead Developer"
+      ],
+      "entity": "Digital School for Learning IT",
+      "type": "Educational Platform"
+    }
+  ]
+}
