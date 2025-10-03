@@ -52,10 +52,24 @@ a:hover {
 
 /* Header */
 .header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 25%, #8b5cf6 75%, #a855f7 100%);
     color: white;
-    padding: 2rem 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem 0;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+    opacity: 0.3;
+    pointer-events: none;
 }
 
 .header-content {
@@ -63,6 +77,8 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    position: relative;
+    z-index: 1;
 }
 
 .profile-section {
@@ -73,12 +89,38 @@ a:hover {
 }
 
 .profile-image {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     overflow: hidden;
-    border: 4px solid rgba(255, 255, 255, 0.3);
+    border: 4px solid rgba(255, 255, 255, 0.4);
     flex-shrink: 0;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.profile-image::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #10b981, #3b82f6, #8b5cf6, #f59e0b);
+    z-index: -1;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 .profile-image img {
@@ -140,6 +182,64 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Current Positions */
+.current-positions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.position-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    max-width: fit-content;
+}
+
+.position-badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.position-badge.lecturer {
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.2) 0%, rgba(16, 185, 129, 0.2) 100%);
+    border-color: rgba(34, 197, 94, 0.3);
+}
+
+.position-badge.consultant {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(37, 99, 235, 0.2) 100%);
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.position-badge .icon {
+    font-size: 1.1rem;
+}
+
+.position-text {
+    color: white;
+}
+
+.aab-link {
+    color: #10b981 !important;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.aab-link:hover {
+    color: #059669 !important;
+    text-decoration: underline;
+    text-shadow: 0 0 8px rgba(16, 185, 129, 0.5);
+}
+
 .header-actions {
     display: flex;
     gap: 1rem;
@@ -195,10 +295,25 @@ a:hover {
 
 .section-title {
     color: #1f2937;
-    border-bottom: 3px solid #2563eb;
+    border-bottom: 3px solid transparent;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6) border-box;
+    border-image: linear-gradient(90deg, #3b82f6, #8b5cf6) 1;
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
     font-size: 1.75rem;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    border-radius: 2px;
 }
 
 /* About Section */
@@ -284,15 +399,33 @@ a:hover {
 /* Experience Section */
 .experience-item {
     margin-bottom: 2.5rem;
-    padding: 1.5rem;
+    padding: 2rem;
     border: 1px solid #e5e7eb;
-    border-radius: 12px;
-    background-color: #fafafa;
-    transition: box-shadow 0.2s ease;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.experience-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, #3b82f6, #8b5cf6);
+    transition: width 0.3s ease;
 }
 
 .experience-item:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+}
+
+.experience-item:hover::before {
+    width: 6px;
 }
 
 .experience-header {
@@ -470,6 +603,16 @@ a:hover {
         text-align: center;
     }
     
+    .current-positions {
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .position-badge {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
     .name {
         font-size: 2rem;
     }
@@ -515,12 +658,16 @@ a:hover {
     }
     
     .profile-image {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
     
     .profile-placeholder {
         font-size: 2.5rem;
+    }
+    
+    .profile-image::before {
+        animation: none;
     }
 }
 
