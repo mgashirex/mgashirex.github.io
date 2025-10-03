@@ -30,14 +30,14 @@ This is a static website that can be viewed directly in your browser or deployed
 
 ### Features
 
-- 📱 **Mobile-friendly** responsive design
-- 🖨️ **Print-optimized** CSS for A4 paper
-- 📄 **PDF Download** button (add `cv.pdf` to assets/)
-- 🎨 **Clean, accessible** design
-- ⚡ **Fast loading** static site
-- 🔍 **SEO-friendly** semantic HTML
+-  **Mobile-friendly** responsive design
+-  **Print-optimized** CSS for A4 paper
+-  **PDF Download** button (add `cv.pdf` to assets/)
+-  **Clean, accessible** design
+-  **Fast loading** static site
+-  **SEO-friendly** semantic HTML
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── README.md              # This file
@@ -54,7 +54,7 @@ This is a static website that can be viewed directly in your browser or deployed
     └── (add cv.pdf here)  # PDF version of CV
 ```
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5** - Semantic markup
 - **CSS3** - Responsive design and print styles
@@ -62,14 +62,14 @@ This is a static website that can be viewed directly in your browser or deployed
 - **GitHub Pages** - Hosting and deployment
 - **GitHub Actions** - Automated deployment
 
-## 📄 Available Formats
+## Available Formats
 
 - **Web**: Interactive HTML version at `index.html`
 - **Markdown**: Source format at `cv.md`
 - **JSON**: Structured data at `resume.json`
 - **PDF**: Downloadable version (add `cv.pdf` to assets/)
 
-## 🔧 Customization
+## Customization
 
 To customize this CV for your own use:
 
@@ -79,17 +79,16 @@ To customize this CV for your own use:
 4. Add your PDF as `assets/cv.pdf`
 5. Update the repository name and URLs
 
-## 📞 Contact
+##  Contact
 
 - **Email**: m.gashii@gmail.com
 - **Phone**: +38349860006
 - **Location**: Ferizaj, Kosovo
 - **Website**: [mgashirex.github.io](https://mgashirex.github.io)
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-*Built with ❤️ for modern web standards and accessibility*

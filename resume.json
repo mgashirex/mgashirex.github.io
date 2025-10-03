@@ -3,7 +3,7 @@
   "basics": {
     "name": "Malësore Gashi Rexhepi",
     "label": "Senior IT Consultant & .NET Web Developer",
-    "image": "assets/photo.jpg",
+    "image": "assets/photo1.jpg",
     "email": "m.gashii@gmail.com",
     "phone": "+38349860006",
     "url": "https://mgashirex.github.io",
@@ -32,7 +32,7 @@
       "endDate": "",
       "summary": "Leading digital transformation initiatives for remote education using Azure & .NET technologies",
       "highlights": [
-        "Developed BigBlueButton real-time translation system supporting 3 languages",
+        "Built a middleware for BigBlueButton that supports simultaneous real-time translation across multiple languages using APIs.",
         "Managed Azure VMs, networking infrastructure, and automated backup systems",
         "Deployed and maintained secure conferencing solutions for educational institutions"
       ]
@@ -40,7 +40,7 @@
     {
       "name": "Digital School for Learning IT",
       "position": "Co-Founder",
-      "url": "",
+      "url": "https://www.aab-edu.net",
       "startDate": "2024-06-01",
       "endDate": "",
       "summary": "Built comprehensive Python-based gamified curricula for IT education",
@@ -53,7 +53,7 @@
     {
       "name": "AAB College",
       "position": "Lecturer",
-      "url": "",
+      "url": "https://aab-edu.net/persons/malesore-gashi/",
       "startDate": "2023-10-01",
       "endDate": "",
       "summary": "Teaching software development courses and mentoring capstone projects",
